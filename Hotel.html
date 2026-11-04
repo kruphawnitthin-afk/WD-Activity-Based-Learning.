@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Grand Hotel & Resort</title>
+    <link rel="stylesheet" href="Hotel.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<header class="header">
+    <a href="#home" class="logo">
+        <span class="crown">♛</span>
+        <span>ROYAL GRAND<small>HOTEL & RESORT</small></span>
+    </a>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#rooms">Rooms</a>
+        <a href="#facilities">Facilities</a>
+        <a href="#tariffs">Tariffs</a>
+        <a href="#booking">Contact</a>
+    </nav>
+
+    <a href="#booking" class="nav-button">Book Now</a>
+</header>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+    <div class="hero-content">
+        <p class="eyebrow">LUXURY • COMFORT • HOSPITALITY</p>
+        <h1>Experience the<br><span>Royal Stay</span></h1>
+        <p class="hero-description">
+            A perfect blend of luxury and comfort
+            for an unforgettable stay.
+        </p>
+        <a href="#rooms" class="button">Explore Rooms →</a>
+    </div>
+</section>
+
+<!-- Quick Booking -->
+<section class="quick-booking">
+    <form action="#booking" method="get" class="quick-form">
+        <div class="field">
+            <label for="quick-checkin">Check-In Date</label>
+            <input type="date" id="quick-checkin" name="checkin" required>
+        </div>
+
+        <div class="field">
+            <label for="quick-checkout">Check-Out Date</label>
+            <input type="date" id="quick-checkout" name="checkout" required>
+        </div>
+
+        <div class="field">
+            <label for="quick-guests">Guests</label>
+            <select id="quick-guests" name="guests">
+                <option value="1">1 Guest</option>
+                <option value="2" selected>2 Guests</option>
+                <option value="3">3 Guests</option>
+                <option value="4">4 Guests</option>
+                <option value="5">5+ Guests</option>
+            </select>
+        </div>
+
+        <button type="submit" class="button">Check Availability</button>
+    </form>
+</section>
+
+<!-- Room Categories -->
+<section class="section rooms-section" id="rooms">
+    <div class="section-heading">
+        <p class="eyebrow">COMFORT MEETS ELEGANCE</p>
+        <h2>Our <span>Room Categories</span></h2>
+        <p>Find your perfect room for a memorable experience.</p>
+    </div>
+
+    <div class="room-grid">
+
+        <article class="room-card">
+            <img
+                src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=900&q=85"
+                alt="Elegant deluxe hotel bedroom">
+            <div class="room-info">
+                <span class="room-tag">POPULAR</span>
+                <h3>Deluxe Room</h3>
+                <p>Stylish interiors and a relaxing king-size bed.</p>
+                <ul class="room-features">
+                    <li>2 Guests</li>
+                    <li>Free Wi-Fi</li>
+                    <li>Air Conditioning</li>
+                </ul>
+                <div class="room-bottom">
+                    <p class="price">₹4,999 <small>/ night</small></p>
+                    <a href="#booking" class="button small-button">Book Now</a>
+                </div>
+            </div>
+        </article>
+
+        <article class="room-card">
+            <img
+                src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=900&q=85"
+                alt="Premium executive hotel room">
+            <div class="room-info">
+                <h3>Executive Room</h3>
+                <p>Premium comfort with elegant furnishings.</p>
+                <ul class="room-features">
+                    <li>2 Guests</li>
+                    <li>Work Desk</li>
+                    <li>Room Service</li>
+                </ul>
+                <div class="room-bottom">
+                    <p class="price">₹6,999 <small>/ night</small></p>
+                    <a href="#booking" class="button small-button">Book Now</a>
+                </div>
+            </div>
+        </article>
+
+        <article class="room-card">
+            <img
+                src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=900&q=85"
+                alt="Luxurious hotel suite with stylish interiors">
+            <div class="room-info">
+                <span class="room-tag">LUXURY</span>
+                <h3>Suite Room</h3>
+                <p>Spacious living area for a royal experience.</p>
+                <ul class="room-features">
+                    <li>3 Guests</li>
+                    <li>Living Area</li>
+                    <li>Mini Bar</li>
+                </ul>
+                <div class="room-bottom">
+                    <p class="price">₹9,999 <small>/ night</small></p>
+                    <a href="#booking" class="button small-button">Book Now</a>
+                </div>
+            </div>
+        </article>
+
+        <article class="room-card">
+            <img
+                src="https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=900&q=85"
+                alt="Comfortable family hotel bedroom">
+            <div class="room-info">
+                <h3>Family Room</h3>
+                <p>Extra space and comfort for the whole family.</p>
+                <ul class="room-features">
+                    <li>4 Guests</li>
+                    <li>Extra Beds</li>
+                    <li>Family Comfort</li>
+                </ul>
+                <div class="room-bottom">
+                    <p class="price">₹7,999 <small>/ night</small></p>
+                    <a href="#booking" class="button small-button">Book Now</a>
+                </div>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+<!-- Hotel Facilities -->
+<section class="facilities-section" id="facilities">
+    <div class="section-heading">
+        <p class="eyebrow">EVERYTHING YOU NEED</p>
+        <h2>Hotel <span>Facilities</span></h2>
+        <p>World-class amenities for a relaxing stay.</p>
+    </div>
+
+    <div class="facility-grid">
+        <article class="facility-card">
+            <span>⌁</span>
+            <h3>Free Wi-Fi</h3>
+            <p>Stay connected everywhere.</p>
+        </article>
+
+        <article class="facility-card">
+            <span>♨</span>
+            <h3>Restaurant</h3>
+            <p>Enjoy delicious dining.</p>
+        </article>
+
+        <article class="facility-card">
+            <span>♧</span>
+            <h3>Fitness Center</h3>
+            <p>Keep up your fitness routine.</p>
+        </article>
+
+        <article class="facility-card">
+            <span>≋</span>
+            <h3>Swimming Pool</h3>
+            <p>Relax beside our pool.</p>
+        </article>
+
+        <article class="facility-card">
+            <span>✿</span>
+            <h3>Spa & Wellness</h3>
+            <p>Refresh your mind and body.</p>
+        </article>
+
+        <article class="facility-card">
+            <span>♧</span>
+            <h3>Free Parking</h3>
+            <p>Convenient guest parking.</p>
+        </article>
+    </div>
+</section>
+
+<!-- Tariffs -->
+<section class="section tariffs-section" id="tariffs">
+    <div class="section-heading">
+        <p class="eyebrow">TRANSPARENT PRICING</p>
+        <h2>Our <span>Room Tariffs</span></h2>
+        <p>Choose the right room for your budget.</p>
+    </div>
+
+    <div class="tariff-wrapper">
+        <table class="tariff-table">
+            <thead>
+                <tr>
+                    <th>Room Category</th>
+                    <th>Occupancy</th>
+                    <th>Facilities</th>
+                    <th>Price / Night</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Deluxe Room</td>
+                    <td>2 Guests</td>
+                    <td>Wi-Fi, AC, TV</td>
+                    <td>₹4,999</td>
+                </tr>
+                <tr>
+                    <td>Executive Room</td>
+                    <td>2 Guests</td>
+                    <td>Wi-Fi, AC, Desk</td>
+                    <td>₹6,999</td>
+                </tr>
+                <tr>
+                    <td>Family Room</td>
+                    <td>4 Guests</td>
+                    <td>Wi-Fi, AC, Extra Beds</td>
+                    <td>₹7,999</td>
+                </tr>
+                <tr>
+                    <td>Suite Room</td>
+                    <td>3 Guests</td>
+                    <td>Living Area, Mini Bar</td>
+                    <td>₹9,999</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p class="tariff-note">
+            * Prices are sample rates per night. Taxes and availability
+            should be confirmed with the hotel.
+        </p>
+    </div>
+</section>
+
+<!-- Reservation Form -->
+<section class="booking-section" id="booking">
+    <div class="booking-intro">
+        <p class="eyebrow">YOUR NEXT GETAWAY</p>
+        <h2>Book Your <span>Stay</span></h2>
+        <p>
+            Fill in your details and prepare for an unforgettable
+            stay at Royal Grand Hotel & Resort.
+        </p>
+
+        <div class="booking-benefit">
+            <span>✦</span>
+            <div>
+                <h3>Luxury & Comfort</h3>
+                <p>Thoughtfully designed rooms.</p>
+            </div>
+        </div>
+
+        <div class="booking-benefit">
+            <span>✦</span>
+            <div>
+                <h3>Exceptional Hospitality</h3>
+                <p>Comfort is our priority.</p>
+            </div>
+        </div>
+
+        <div class="booking-benefit">
+            <span>✦</span>
+            <div>
+                <h3>Premium Facilities</h3>
+                <p>Everything for a relaxing stay.</p>
+            </div>
+        </div>
+    </div>
+
+    <form class="reservation-form"
+          action="mailto:reservations@example.com"
+          method="post"
+          enctype="text/plain">
+
+        <h3>Reservation Details</h3>
+        <p class="form-description">Enter your details below.</p>
+
+        <div class="form-grid">
+            <div class="form-field">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="Full Name"
+                       placeholder="Enter your full name" required>
+            </div>
+
+            <div class="form-field">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="Email"
+                       placeholder="Enter your email" required>
+            </div>
+
+            <div class="form-field">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="Phone"
+                       placeholder="Enter phone number" required>
+            </div>
+
+            <div class="form-field">
+                <label for="room">Room Category</label>
+                <select id="room" name="Room Category" required>
+                    <option value="">Select a room</option>
+                    <option>Deluxe Room</option>
+                    <option>Executive Room</option>
+                    <option>Suite Room</option>
+                    <option>Family Room</option>
+                </select>
+            </div>
+
+            <div class="form-field">
+                <label for="checkin">Check-In Date</label>
+                <input type="date" id="checkin" name="Check-In"
+                       required>
+            </div>
+
+            <div class="form-field">
+                <label for="checkout">Check-Out Date</label>
+                <input type="date" id="checkout" name="Check-Out"
+                       required>
+            </div>
+
+            <div class="form-field">
+                <label for="adults">Adults</label>
+                <select id="adults" name="Adults">
+                    <option>1</option>
+                    <option selected>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+
+            <div class="form-field">
+                <label for="children">Children</label>
+                <select id="children" name="Children">
+                    <option selected>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-field message-field">
+            <label for="requests">Special Requests</label>
+            <textarea id="requests" name="Special Requests"
+                      rows="3"
+                      placeholder="Any additional requirements?"></textarea>
+        </div>
+
+        <button type="submit" class="button reserve-button">
+            Submit Reservation Request →
+        </button>
+
+        <p class="privacy-note">
+            Your details are used for this sample reservation request.
+        </p>
+    </form>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <a href="#home" class="logo">
+        <span class="crown">♛</span>
+        <span>ROYAL GRAND<small>HOTEL & RESORT</small></span>
+    </a>
+
+    <p>Make your stay memorable with Royal Grand Hotel.</p>
+
+    <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#rooms">Rooms</a>
+        <a href="#facilities">Facilities</a>
+        <a href="#booking">Reservations</a>
+    </div>
+
+    <p class="copyright">
+        © 2026 Royal Grand Hotel & Resort. All rights reserved.
+    </p>
+</footer>
+
+</body>
+</html>
