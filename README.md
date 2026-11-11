@@ -51,27 +51,6 @@ A business dashboard interface that organizes key business information. The visi
 - **CSS3** – styling, layout, typography, colours and visual presentation
 - **GitHub** – repository management and project submission
 
-## Suggested Repository Structure
-
-```text
-WD-Activity-Based-Learning/
-│
-├── README.md
-├── Web_Development_ABL_Consolidated_Report.pdf
-│
-├── Travel-Agency/
-│   ├── index.html
-│   └── style.css
-│
-├── Hotel-Reservation/
-│   ├── index.html
-│   └── style.css
-│
-└── Business-Analytics-Dashboard/
-    ├── index.html
-    └── style.css
-```
-
 *The folder and source-file names above are a suggested organization. Add your actual HTML and CSS files in the matching folders before submitting the complete repository.*
 
 ## Report
